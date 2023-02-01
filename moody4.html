@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OUR-Shop</title>
+        <link rel="stylesheet" href="bootstrop/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrop/bootstrap.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsiv.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&family=Inter:wght@100;300;400;500;600;700&family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <section class="part1">
+            <div class="heading">
+                <div class="headinger_area clear">
+                    <div class="header">
+                        <div class="fober">
+
+                            <div class="faster">
+                                <div class="welcome">
+                                    <p>FREE SHIPPING ON ALL ORDERS! YOU’RE WELCOME!</p>
+                                </div>
+                            </div>
+
+                            <div class="abese">
+
+                                <div class="secender">
+                                    <div class="back">
+                                        <div class="row">
+
+                                            <div class="manu col-md-4">
+                                                <div class="manuer">
+                                                    <ul>
+                                                        <li><a class="" href="">Shop</a></li>
+                                                        <li><a class="" href="">About<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                                                        <li><a class="" href="">Blog</a></li>
+                                                        <li><a class="" href="">Quiz</a></li>
+                                                    </ul>
+                                                    <div class="menu" id="menu">
+                                                        <!-- This is the menu icon -->
+                                                        <!-- onclick will activate the function that makes the dropdown drops -->
+                                                        <i class="fa fa-bars" onclick="dropdown()"></i>
+                                                        <!-- This is the dropdown menu -->
+                                                        <!-- The class close keep it closed by default -->
+                                                        <!-- onmouseleave will activate the function to dismiss the menu -->
+                                                        <div class="dropdown close" id="dropMenu" onmouseleave="dropdownDismiss()">
+                                                            <ul>
+                                                                <li>About</li>
+                                                                <!-- <hr /> -->
+                                                                <li>Portfolio</li>
+                                                                <!-- <hr /> -->
+                                                                <li>Blog</li>
+                                                                <!-- <hr /> -->
+                                                                <li>Contact</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="logo_img col-md-4">
+                                                <div class="logoer">
+                                                    <img src="image/Logo.png" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="secen-manu col-md-4">
+                                                <div class="scender-manu">
+                                                    <ul>
+                                                        <li><a class="ato" href="">Incense Subscription</a></li>
+                                                        <li><a class="ato" href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                                                        <li><a class="ato" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                        <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part2">
+            <div class="shop">
+                <div class="shoper_area clear">
+                    <div class="shopes my_continar">
+                        <div class="sokes">
+                            <div class="larabel">
+                                <div class="sider-img">
+                                    <img src="image/Vector.png" alt="">
+                                </div>
+                                <div class="candor">
+                                    <img src="image/2ndVector.png" alt="">
+                                </div>
+                            </div>
+                            <div class="fast-sh-top">
+                                <div class="fun-copy">
+                                    <h2>Our shop</h2>
+                                    <p>Fun copy! How good is our incense. Don’t know quiz</p>
+                                </div>
+                            </div>
+
+                            <div class="all-document">
+                                <div class="al-fast-top">
+                                    <div class="row">
+                                        <div class="quizer col-md-6">
+                                            <div class="akaki-shop">
+                                                <div class="atast">
+                                                    <div class="img-cori">
+                                                        <img src="image/Group.png" alt="" srcset="">
+                                                    </div>
+    
+                                                    <div class="bukta-soper">
+                                                        <p>Don’t know what you want? We have a quiz.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="9producat col-md-6">
+                                            <div class="rate">
+                                                <div class="ghum-sop">
+                                                    <div class="ninesider">
+                                                        <p>9 products sorted by</p>
+                                                    </div>
+                                                    <div class="vul-venge">
+
+                                                            <select class="selakt" name="" id="selakt">
+                                                                <option class="Featured" value="">Featured</option>
+                                                                <option value="">Price high</option>
+                                                                <option value="">Price low</option>
+                                                                <option value="">Newest</option>
+                                                                <option value="">Most popular</option>
+                                                            </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="middle">
+                                    <div class="middle-fister">
+                                        <div class="all-stac">
+                                            <div class="row">
+
+                                                <div class="scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Moody-Flatlay-MG-Hero-15.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Mixed pouch.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Screen Shot 2022-10-08 at 4.04 1.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="all-stac ">
+                                            <div class="row">
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Product-MG-1.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Bang On01.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Product-RM-1.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="all-stac ">
+                                            <div class="row">
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Moody-Flatlay-MG-Hero-15.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Mixed pouch.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hered scent comon col-md-4">
+                                                    <div class="bodor">
+                                                        <div class="comon-top-img">
+                                                            <img src="image/Beanie-1 copy.png" alt="">
+                                                        </div>
+                                                        <div class="comon-bottom-para">
+                                                            <div class="para-t">
+                                                                <h4>Scent Set</h4>
+                                                                <p>All the fragrances words words words words words wordswords words wordswords words words</p>
+                                                            </div>
+                                                            <div class="para-b">
+                                                                <div class="akase">
+                                                                    <h4>$60</h4>
+                                                                </div>
+                                                                <div class="saveg">
+                                                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16.2258 16.5C16.7607 16.5 17.1767 16.9375 17.1767 17.5C17.1767 18.0625 16.7607 18.5 16.2258 18.5C15.6909 18.5 15.2748 18.0625 15.2748 17.5C15.2748 16.9375 15.6909 16.5 16.2258 16.5ZM9.09363 16.5C9.62854 16.5 10.0446 16.9375 10.0446 17.5C10.0446 18.0625 9.62854 18.5 9.09363 18.5C8.55872 18.5 8.14268 18.0625 8.14268 17.5C8.14268 16.9375 8.55872 16.5 9.09363 16.5ZM16.2258 15C14.9206 15 13.8484 16.1275 13.8484 17.5C13.8484 18.8725 14.9206 20 16.2258 20C17.531 20 18.6032 18.8725 18.6032 17.5C18.6032 16.1275 17.531 15 16.2258 15ZM9.09363 15C7.78845 15 6.71625 16.1275 6.71625 17.5C6.71625 18.8725 7.78845 20 9.09363 20C10.3988 20 11.471 18.8725 11.471 17.5C11.471 16.1275 10.3988 15 9.09363 15ZM6.10764 4H20.3196L19.2118 9.0475L8.37328 9.9525L6.10764 4ZM0.772786 0C0.37814 0 0.0595703 0.335 0.0595703 0.75C0.0595703 1.165 0.37814 1.5 0.772786 1.5H3.61851C4.7977 4.575 5.96262 7.655 7.13229 10.735L6.05533 13.4625C5.96499 13.69 5.99114 13.9625 6.11952 14.1675C6.25028 14.3725 6.48088 14.5025 6.71625 14.5H18.6032C18.9812 14.505 19.3259 14.1475 19.3259 13.75C19.3259 13.3525 18.9788 12.995 18.6032 13H7.78607L8.40181 11.4525L19.8513 10.4925C20.1508 10.4675 20.4219 10.2225 20.4908 9.915L21.9172 3.415C22.01 2.9775 21.6462 2.5 21.2183 2.5H5.53469L4.76204 0.47C4.65743 0.1925 4.38403 0 4.10112 0H0.772786Z" fill="black"/>
+                                                                    </svg>  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cortol">
+                                <div class="corestol">
+                                    <img src="image/4thVector.png" alt="">
+                                </div>
+                                <div class="egnor">
+                                        <img src="image/5thVector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part3">
+            <div class="subscription">
+                <div class="subscription_area clear">
+                    <div class="subscriptioner my_continar">
+                        <div class="subscriptiotr">
+                            <div class="sopjartot">
+                                <h2>Subscription</h2>
+                                <p>Copy</p>
+                                <div class="sshoper">
+                                    <a href="">Add to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part4">
+            <div class="love">
+                <div class="lover_area clear">
+                    <div class="lovere my_continar">
+                        <div class="loveblowd">
+                            <div class="moder">
+                                <img src="image/Fill 1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part5">
+            <div class="bolte">
+                <div class="bolte_area clear">
+                    <div class="borerse my_continar">
+                        <div class="toredlin">
+                            <div class="sori">
+
+                                <!-- <div class="calotor" style="display: none;">
+
+                                    <div class="oreng">
+                                        <div class="orenre">
+                                            <div class="oreng-boder">
+                                                <div class="herok brok">
+                                                    <div class="orenj-para orjinal">
+                                                        <p><span>“I love Moody</span> because it gives me an instant mood lift that feels as good as it smells.”</p>
+                                                        <img src="image/Group 7151.png" alt="">
+                                                        <h4>Souha I.</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="parpel">
+                                        <div class="parpeler">
+                                            <div class="parle-boder">
+                                                <div class="herok nirok">
+                                                    <div class="orenj-para">
+                                                        <p><span>“I love the freshness and simplicity of fragrances.</span> Not super overpowering, very share house friendly – those people who ‘hate incense’ always comment  how great the place smells.”</p>
+                                                        <img src="image/Group 7152.png" alt="">
+                                                        <h4>Louise U.</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="oreng sky-buly">
+                                        <div class="orenre">
+                                            <div class="skyb-boder">
+                                                <div class="herok">
+                                                    <div class="orenj-para sky-para">
+                                                        <p>“Smells amazing. I love the cute pouchto store the sticks in. Hot item     .”</p>
+                                                        <img src="image/Group 7151.png" alt="">
+                                                        <h4>Chelsea K.</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div> -->
+
+
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide timor">
+                                        <div class="oreng">
+                                            <div class="orenre">
+                                                <div class="oreng-boder">
+                                                    <div class="herok brok">
+                                                        <div class="orenj-para orjinal">
+                                                            <p><span>“I love Moody</span> because it gives me an instant mood lift that feels as good as it smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide camormin">
+                                        <div class="parpel">
+                                            <div class="parpeler">
+                                                <div class="parle-boder">
+                                                    <div class="herok nirok">
+                                                        <div class="orenj-para">
+                                                            <p><span>“I love the freshness and simplicity of fragrances.</span> Not super overpowering, very share house friendly – those people who ‘hate incense’ always comment  how great the place smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide timor">
+                                            <div class="oreng sky-buly">
+                                                <div class="orenre">
+                                                    <div class="skyb-boder">
+                                                        <div class="herok">
+                                                            <div class="orenj-para sky-para">
+                                                                <p>“Smells amazing. I love the cute pouchto store the sticks in. Hot item.”</p>
+                                                            </div>
+                                                            <div class="tomes">
+                                                                <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                                <h4>Chelsea K.</h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      <div class="swiper-slide timor">
+                                        <div class="oreng">
+                                            <div class="orenre">
+                                                <div class="oreng-boder">
+                                                    <div class="herok brok">
+                                                        <div class="orenj-para orjinal">
+                                                            <p><span>“I love Moody</span> because it gives me an instant mood lift that feels as good as it smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide camormin">
+                                        <div class="parpel">
+                                            <div class="parpeler">
+                                                <div class="parle-boder">
+                                                    <div class="herok nirok">
+                                                        <div class="orenj-para">
+                                                            <p><span>“I love the freshness and simplicity of fragrances.</span> Not super overpowering, very share house friendly – those people who ‘hate incense’ always comment  how great the place smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide timor">
+                                        <div class="oreng sky-buly">
+                                            <div class="orenre">
+                                                <div class="skyb-boder">
+                                                    <div class="herok">
+                                                        <div class="orenj-para sky-para">
+                                                            <p>“Smells amazing. I love the cute pouchto store the sticks in. Hot item.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide timor">
+                                        <div class="oreng">
+                                            <div class="orenre">
+                                                <div class="oreng-boder">
+                                                    <div class="herok brok">
+                                                        <div class="orenj-para orjinal">
+                                                            <p><span>“I love Moody</span> because it gives me an instant mood lift that feels as good as it smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide camormin">
+                                        <div class="parpel">
+                                            <div class="parpeler">
+                                                <div class="parle-boder">
+                                                    <div class="herok nirok">
+                                                        <div class="orenj-para">
+                                                            <p><span>“I love the freshness and simplicity of fragrances.</span> Not super overpowering, very share house friendly – those people who ‘hate incense’ always comment  how great the place smells.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-slide timor">
+                                        <div class="oreng sky-buly">
+                                            <div class="orenre">
+                                                <div class="skyb-boder">
+                                                    <div class="herok">
+                                                        <div class="orenj-para sky-para">
+                                                            <p>“Smells amazing. I love the cute pouchto store the sticks in. Hot item.”</p>
+                                                        </div>
+                                                        <div class="tomes">
+                                                            <div class="colombas"><img src="image/Group 7151.png" alt=""></div>
+                                                            <h4>Chelsea K.</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part6">
+            <div class="yollw">
+                <div class="yolw_area clear">
+                    <div class="yolle-tin my_continar">
+                        <div class="paichebt">
+
+                            <div class="abeg">
+                                <div class="row">
+                                    <div class="paramet col-md-6">
+                                        <div class="paratec">
+                                            <h2>Want 10% off your first order?</h2>
+                                        </div>
+                                    </div>
+                                    <div class="world col-md-6">
+                                        <div class="world-cup">
+                                            <h2>Words</h2>
+                                            <p>Words</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="addy">
+                                <div class="email-eaddy">
+                                    <form action="/action_page.php">
+                                        <input class="email" type="email" id="email" name="lname" placeholder="Email addy">
+                                        <input class="kalraste" type="submit" value="Button">
+                                    </form>
+                                    <div class="folert">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part7">
+            <div class="sub-footer">
+                <div class="sub-footer_area clear">
+                    <div class="sub-footes my_continar">
+                        <div class="coreter">
+                            <div class="coretror">
+                                <img src="image/Group7895.png" alt="">
+                            </div>
+                        </div>
+                        <div class="sub-footer-le">
+
+                            <div class="sub-footer-top">
+                                <div class="sob-img">
+                                    <img src="image/Fill4.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="sub-footer-bottom">
+                                <div class="moddy-footer">
+
+                                    <div class="niom-moddy">
+                                        <img src="image/Logo.png" alt="">
+                                    </div>
+
+                                    <div class="shoperer">
+                                        <ul>
+                                            <li><a href="">Shop</a></li>
+                                            <li><a href="">Fun Stuff</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="abouter">
+                                        <ul>
+                                            <li><a href="">About</a></li>
+                                            <li><a href="">Contact</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="refils">
+                                        <ul>
+                                            <li><a href="">Refills</a></li>
+                                            <li><a href="">Subscription</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="siping-ritarn">
+                                        <ul>
+                                            <li><a href="">Shipping & returns</a></li>
+                                            <li><a href=""><img src="image/Group7973.png" alt=""></a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bateko">
+                            <div class="metere-gumra">
+                                <div class="aspastum">
+                                    <div class="lou"></div>
+                                </div>
+                                <div class="judaho">
+                                    <div class="canada">
+                                        <div class="mucik">
+                                            <img src="image/Group7907.png" alt="">
+                                        </div>
+                                        <div class="yadokate">
+                                            <div class="text-human">
+                                                <p>We acknowledge Aboriginal and Torres Straight Islander People as the Traditional Custodians of this land. Always was always will be. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pilipan">
+                                        <div class="teloin-text">
+                                            <p>© 2023 Moody Incense  |  Privacy Policy | Terms & Conditions | Refund policy Website created in Naarm by Tayla Gentle and Louise Brough </p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="part8">
+            <div class="footer">
+                <div class="footer_area">
+                    <div class="footeres my_continar">
+                        <div class="foret">
+                            <p>a scrolling banner of nice things people might be saying about our incense: “It gave me Elton John dance moves”. Elsie, Tiny dancer Website created in Naarm by Tayla Gentle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="js/slider.js"></script>
+    </body>
+</html>

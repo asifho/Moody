@@ -1,0 +1,830 @@
+
+@media only screen and (min-width: 1600px) {
+    .egnor img {
+        position: relative;
+        right: -65%;
+        margin-top: 10%;
+        margin-bottom: -7%;
+    }
+    .foret p {
+        font-weight: 700;
+        font-size: 21px;
+        width: 100%;
+        text-align: center;
+        color: #FF7F32;
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+}
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+    .egnor img {
+        position: relative;
+        right: -65%;
+        margin-top: 0%;
+        margin-bottom: -9%;
+    }
+    .yollw {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .foret p {
+        font-weight: 700;
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+        color: #FF7F32;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .niom-moddy {
+        float: left;
+        width: 30%;
+    }
+    .moddy-footer {
+        padding-left: 20px;
+    }
+    .niom-moddy img {
+        width: 50%;
+    }
+    .text-human p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .text-human p {
+        font-size: 12px;
+    }
+    .foret p {
+        font-weight: 700;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+        color: #FF7F32;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .bateko {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .niom-moddy {
+        float: left;
+        width: 27%;
+    }
+    .niom-moddy img {
+        width: 50%;
+    }
+    .sub-footer-bottom {
+        padding-left: 20px;
+    }
+    .paichebt {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .paratec h2 {
+        width: 80%;
+        font-size: 55px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    }
+    .orenj-para p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .nirok {
+        padding-bottom: 18px !important;
+    }
+    .bolte {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .orenj-para p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .brok {
+        padding-bottom: 81px;
+    }
+    .egnor img {
+        position: relative;
+        right: -65%;
+        margin-top: -10%;
+        margin-bottom: -12%;
+    }
+    .text-human p {
+        font-weight: 400;
+        font-size: 11px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .manuer ul li {
+        float: left;
+        margin: 7px;
+        list-style: none;
+    }
+    .manuer ul li a {
+        font-size: 13px;
+        color: #000;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+    }
+    .scender-manu ul li {
+        float: left;
+        margin: 4px;
+        list-style: none;
+    }   
+    .secen-manu.col-md-4 {
+        display: flex;
+        justify-content: start;
+        padding: 0;
+        align-items: center;
+    }
+    .scender-manu ul {
+        /* display: flex; */
+        padding: 0px;
+    }
+    .logoer {
+        text-align: center;
+    }
+    .all-document {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 28px;
+        padding-bottom: 165px;
+    }
+    .bukta-soper p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ninesider p {
+        margin: 0px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    .ninesider {
+        margin-right: 10px;
+    }
+    .bukta-soper p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+    }
+    .quizer.col-md-6 {
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+    }
+    .bukta-soper p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .para-t {
+        padding-top: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .para-t p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .sider-img img {
+        position: absolute;
+        left: 0;
+        margin-top: 21%;
+        z-index: 1;
+    }
+    .egnor img {
+    position: relative;
+    right: -65%;
+    margin-top: -30%;
+    margin-bottom: -18%;
+    }
+    .sopjartot {
+        padding-left: 40px;
+    }
+    /* .oreng {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
+    /* .parpel {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    } */
+    .paratec h2 {
+        width: 100%;
+        font-size: 47px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+    .addy {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .niom-moddy {
+        float: left;
+        width: 25%;
+    }
+    .niom-moddy img {
+        width: 70%;
+    }
+    .shoperer {
+        float: left;
+        width: 12%;
+    }
+    .abouter {
+        float: left;
+        width: 12%;
+    }
+    .moddy-footer a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 12px;
+        padding: 18px;
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+    }
+    .shoperer {
+        float: left;
+        width: 15%;
+    }
+    .niom-moddy {
+        text-align: center;
+    }
+    .mucik {
+        float: left;
+        width: 17%;
+    }
+    .text-human p {
+        font-weight: 400;
+        font-size: 9px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .teloin-text p {
+        font-weight: 400;
+        font-size: 10px;
+        display: flex;
+        justify-content: end;
+        text-align: end;
+        width: 90%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+    .moder img {
+        width: 100%;
+        margin-top: -47px;
+        z-index: 1;
+        position: absolute;
+    }
+    .sopjartot {
+        padding-left: 60px;
+    }
+    /* .oreng {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
+    /* .parpel {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    } */
+    .egnor img {
+    position: relative;
+    right: -65%;
+    margin-top: -48%;
+    margin-bottom: -26%;
+    }
+    .logoer {
+        text-align: center;
+    }
+    .manu.col-md-4 {
+        margin-bottom: 20px;
+        justify-content: center;
+        display: flex;
+    }
+    .secen-manu.col-md-4 {
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+    }
+    .sider-img img {
+        position: absolute;
+        left: 0;
+        margin-top: 33%;
+        z-index: 1;
+    }
+    .akaki-shop {
+        text-align: center;
+    }
+    .rate {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .paichebt {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .world-cup h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 10px;
+        margin-bottom: 8px;
+    }
+    .paramet.col-md-6 {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .niom-moddy {
+        width: 100%;
+    }
+    .shoperer {
+        width: 100%;
+    }
+    .abouter {
+        width: 100%;
+    }
+    .refils {
+        width: 100%;
+    }
+    .pilipan{
+        display: none;
+    }
+    .canada {
+        float: left;
+        width: 100%;
+    }
+    .canada {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .text-human p {
+        font-weight: 400;
+        font-size: 12px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .coretror img {
+        position: absolute;
+        right: 0;
+        margin-top: 30%;
+        width: 40%;
+    }
+    .subscriptiotr {
+        padding-top: 22px;
+        padding-bottom: 409px;
+        margin-top: 8px;
+    }
+    input.kalraste {
+        float: right;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        background-color: #000000;
+        padding: 15px 25px 15px 25px;
+        border-radius: 100px;
+        margin-top: -9%;
+    }
+    .swiper-slide {
+        position: relative;
+        left: 50px;
+    }
+    .swiper-slide {
+        position: relative;
+        right: 235px !important;
+    }
+    .swiper-slide {
+        position: relative;
+        /* right: 256px !important; */
+        left: -275px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+    .scent.comon.col-md-4 {
+        width: 50%;
+    }
+    .all-document {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 28px;
+        padding-bottom: 165px;
+    }
+    .para-t p {
+        font-size: 14px;
+    }
+    .para-t {
+        padding-top: 43px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .al-fast-top {
+        text-align: center;
+    }
+    .ghum-sop {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .quizer.col-md-6 {
+        display: none;
+    }
+    .sider-img img {
+        display: none;
+    }
+    .candor img {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        margin-top: 30%;
+        display: none;
+    }
+    .corestol img {
+        display: none;
+    }
+    .egnor img {
+        display: none;
+    }
+    .sokes {
+        background-color: #F8F6EF;
+    }
+    .moder img {
+        width: 100%;
+        margin-top: -37px;
+        z-index: 1;
+        position: absolute;
+        display: none;
+    }
+    .sopjartot {
+        padding-left: 20px;
+    }
+    /* .oreng {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    } */
+    /* .parpel {
+        margin: 0px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } */
+    .subscription {
+        background-image: url(../image/Moody-Studio-Team-Hero-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .sopjartot {
+        margin-top: -84px;
+    }
+    .paratec h2 {
+        width: 100%;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        padding-left: 33px;
+    }
+    .paramet.col-md-6 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .world-cup {
+        padding-left: 33px;
+    }
+    .world-cup h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .addy {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    input.kalraste {
+        float: right;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        background-color: #000000;
+        padding: 15px 25px 15px 25px;
+        border-radius: 100px;
+        margin-top: -10%;
+    }
+    .pilipan {
+        display: none;
+    }
+    .canada {
+        float: left;
+        width: 100%;
+    }
+    .text-human p {
+        font-weight: 400;
+        font-size: 10px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .judaho {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .niom-moddy {
+        float: left;
+        width: 100%;
+    }
+    .shoperer {
+        float: left;
+        width: 100%;
+    }
+    .abouter {
+        float: left;
+        width: 100%;
+    }
+    .refils {
+        float: left;
+        width: 100%;
+    }
+    .coretror img {
+        position: absolute;
+        right: 0;
+        margin-top: 30%;
+        width: 50%;
+    }   
+    .manu.col-md-4 {
+        width: 33%;
+        float: left;
+    }
+    .logo_img.col-md-4 {
+        width: 33%;
+        float: left;
+    }
+    .secen-manu.col-md-4 {
+        float: left;
+        width: 33%;
+    }
+    .logo_img.col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .secen-manu.col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .manuer ul {
+        display: none;
+    }
+    .menu {
+        padding: 40px 20px;
+        position: absolute;
+        top: 9%;
+        left: 2;
+        margin-left: 4%;
+        display: block;
+    }
+    .hered {
+        display: none;
+    }
+    .ato{
+        display: none;
+    }
+    .camormin {
+        width: 350px !important;
+        margin-right: 30px;
+    }
+    .camormin p {
+        font-size: 18px;
+    }
+    .orenj-para p span {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    .timor {
+        width: 315px !important;
+        margin-right: 30px;
+    }
+    .orenj-para p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .swiper-slide {
+        position: relative;
+        /* right: 256px !important; */
+        left: -240px;
+    }
+    .timor {
+        width: 277px !important;
+        margin-right: 30px;
+    }
+    .herok {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 52px;
+        border: 1px solid #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* The CSS that toggle the menu is at the end,
+    most of this CSS is just to make it cool */
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: white;
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        /* This ugly image is just to show the dropdown is transparent background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        z-index: 0;
+    }
+
+
+    /* This menu div wrap the component, so in a website,
+    it will all overlap the content instead of push it */
+
+    .menu {
+        padding: 40px 20px;
+        position: absolute;
+    }
+
+
+    /* The style of the menu button */
+
+    .menu i {
+        position: absolute;
+        /* right: 20px; */
+        color: #333;
+        font-size: 24px;
+        z-index: 2;
+    }
+
+
+    /* On mouse hover, it add this blue color */
+
+    .menu i:hover {
+        color: rgb(76, 76, 255);
+    }
+
+
+    /* the drop down menu, with a background
+    semi transparent and linear gradient */
+
+    .dropdown {
+        padding: 8px;
+        margin: 32px 0 16px 16px;
+        background: #fff;
+        display: flex;
+        width: 200px;
+        border-radius: 12px;
+        box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+        transition: all 0.4s ease-in-out;
+    }
+
+    .dropdown ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    .dropdown ul hr {
+        min-width: 100%;
+        opacity: 25%;
+    }
+
+    .dropdown ul li {
+        min-width: 100%;
+        padding: 12px;
+        margin: 4px;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+
+    /* This style is to create the blue background
+    with white text when the mouse hover the menu items */
+
+    .dropdown ul li:hover {
+        min-width: 100%;
+        color: #fff;
+        background-color: rgb(120, 120, 247);
+        padding: 12px;
+        margin: 4px;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+
+
+    /* This closes the dropdown. the "visibility: hidden;" option
+    makes the menu items disappear little after the background.
+    Display: none dismiss it all */
+
+    .close {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1599px) {
+    .text-human p {
+        font-weight: 400;
+        font-size: 12px;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 3000px) {
+    .yollw {
+        margin-bottom: -100px;
+    }
+    .egnor img {
+        position: relative;
+        right: -65%;
+        margin-top: 24% !important;
+        margin-bottom: -7%;
+    }
+}
